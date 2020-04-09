@@ -6,8 +6,8 @@ const _ = require('lodash')
 const Company = require('./models/Company')
 
 const URL = 'https://timkiem.vnexpress.net/?search_f=title,tag_list&q=Covid-19&media_type=all&fromdate=0&todate=0&latest=&cate_code=kinhdoanh&date_format=all&'
-const companyCount = 1000 // Cái này là mình thấy trên trang này nó ghi vậy. =))
-const pageSize = 26 // Đã test. :)
+const companyCount = 1000
+const pageSize = 26 
 const pageCount = parseInt(companyCount / pageSize)
  
 /**
